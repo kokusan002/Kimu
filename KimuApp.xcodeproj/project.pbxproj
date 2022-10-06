@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BA031CB28C4D45D00DE2B57 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA031CA28C4D45D00DE2B57 /* TitleViewController.swift */; };
+		8BB1EC3C28C3A16F0050EB52 /* doramu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8BB1EC3B28C3A16F0050EB52 /* doramu.mp3 */; };
 		8BC7378328C22C7A009FC144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7378228C22C7A009FC144 /* AppDelegate.swift */; };
 		8BC7378528C22C7A009FC144 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7378428C22C7A009FC144 /* SceneDelegate.swift */; };
 		8BC7378728C22C7A009FC144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7378628C22C7A009FC144 /* ViewController.swift */; };
 		8BC7378A28C22C7A009FC144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC7378828C22C7A009FC144 /* Main.storyboard */; };
 		8BC7378C28C22C7C009FC144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC7378B28C22C7C009FC144 /* Assets.xcassets */; };
 		8BC7378F28C22C7C009FC144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC7378D28C22C7C009FC144 /* LaunchScreen.storyboard */; };
+		8BC7379728C22FA6009FC144 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC7379628C22FA6009FC144 /* SelectViewController.swift */; };
+		8BC7379D28C23579009FC144 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC7379928C23579009FC144 /* correct.png */; };
+		8BC7379E28C23579009FC144 /* misairu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC7379A28C23579009FC144 /* misairu.png */; };
+		8BC7379F28C23579009FC144 /* kimu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC7379B28C23579009FC144 /* kimu.png */; };
+		8BC737A028C23579009FC144 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC7379C28C23579009FC144 /* incorrect.png */; };
+		8BD5C50F28C4B57D00AE03BE /* キム顔アップ.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BD5C50E28C4B57D00AE03BE /* キム顔アップ.png */; };
+		8BD5C51128C4BB7800AE03BE /* 爆発音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8BD5C51028C4BB7800AE03BE /* 爆発音.mp3 */; };
+		8BD5C51328C4BBF300AE03BE /* 拍手.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8BD5C51228C4BBF300AE03BE /* 拍手.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8BA031CA28C4D45D00DE2B57 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		8BB1EC3B28C3A16F0050EB52 /* doramu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doramu.mp3; sourceTree = "<group>"; };
 		8BC7377F28C22C7A009FC144 /* KimuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KimuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC7378228C22C7A009FC144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BC7378428C22C7A009FC144 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,14 @@
 		8BC7378B28C22C7C009FC144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BC7378E28C22C7C009FC144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BC7379028C22C7C009FC144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC7379628C22FA6009FC144 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		8BC7379928C23579009FC144 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		8BC7379A28C23579009FC144 /* misairu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misairu.png; sourceTree = "<group>"; };
+		8BC7379B28C23579009FC144 /* kimu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kimu.png; sourceTree = "<group>"; };
+		8BC7379C28C23579009FC144 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		8BD5C50E28C4B57D00AE03BE /* キム顔アップ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "キム顔アップ.png"; sourceTree = "<group>"; };
+		8BD5C51028C4BB7800AE03BE /* 爆発音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "爆発音.mp3"; sourceTree = "<group>"; };
+		8BD5C51228C4BBF300AE03BE /* 拍手.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "拍手.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +79,30 @@
 				8BC7378228C22C7A009FC144 /* AppDelegate.swift */,
 				8BC7378428C22C7A009FC144 /* SceneDelegate.swift */,
 				8BC7378628C22C7A009FC144 /* ViewController.swift */,
+				8BB1EC3B28C3A16F0050EB52 /* doramu.mp3 */,
+				8BD5C51028C4BB7800AE03BE /* 爆発音.mp3 */,
+				8BD5C51228C4BBF300AE03BE /* 拍手.mp3 */,
 				8BC7378828C22C7A009FC144 /* Main.storyboard */,
-				8BC7378B28C22C7C009FC144 /* Assets.xcassets */,
+				8BA031CA28C4D45D00DE2B57 /* TitleViewController.swift */,
+				8BC7379628C22FA6009FC144 /* SelectViewController.swift */,
 				8BC7378D28C22C7C009FC144 /* LaunchScreen.storyboard */,
+				8BC7378B28C22C7C009FC144 /* Assets.xcassets */,
 				8BC7379028C22C7C009FC144 /* Info.plist */,
+				8BC7379828C23579009FC144 /* image */,
 			);
 			path = KimuApp;
+			sourceTree = "<group>";
+		};
+		8BC7379828C23579009FC144 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				8BC7379928C23579009FC144 /* correct.png */,
+				8BC7379A28C23579009FC144 /* misairu.png */,
+				8BC7379B28C23579009FC144 /* kimu.png */,
+				8BC7379C28C23579009FC144 /* incorrect.png */,
+				8BD5C50E28C4B57D00AE03BE /* キム顔アップ.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +163,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD5C51328C4BBF300AE03BE /* 拍手.mp3 in Resources */,
+				8BB1EC3C28C3A16F0050EB52 /* doramu.mp3 in Resources */,
+				8BC7379E28C23579009FC144 /* misairu.png in Resources */,
+				8BD5C51128C4BB7800AE03BE /* 爆発音.mp3 in Resources */,
+				8BC7379D28C23579009FC144 /* correct.png in Resources */,
 				8BC7378F28C22C7C009FC144 /* LaunchScreen.storyboard in Resources */,
+				8BD5C50F28C4B57D00AE03BE /* キム顔アップ.png in Resources */,
 				8BC7378C28C22C7C009FC144 /* Assets.xcassets in Resources */,
 				8BC7378A28C22C7A009FC144 /* Main.storyboard in Resources */,
+				8BC737A028C23579009FC144 /* incorrect.png in Resources */,
+				8BC7379F28C23579009FC144 /* kimu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC7379728C22FA6009FC144 /* SelectViewController.swift in Sources */,
 				8BC7378728C22C7A009FC144 /* ViewController.swift in Sources */,
 				8BC7378328C22C7A009FC144 /* AppDelegate.swift in Sources */,
 				8BC7378528C22C7A009FC144 /* SceneDelegate.swift in Sources */,
+				8BA031CB28C4D45D00DE2B57 /* TitleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
